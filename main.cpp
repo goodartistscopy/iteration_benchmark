@@ -104,10 +104,6 @@ double benchmark(int iter_count, int warmup_count, F fun) {
 }
 
 int main(int argc, char* argv[]) {
-    Timer timer;
-    float sum;
-    float out_sum;
-
     std::vector<Triangle> items(NUM_ITEMS);
 
     std::cout << "struct size: " << sizeof(Triangle) << "\n";
